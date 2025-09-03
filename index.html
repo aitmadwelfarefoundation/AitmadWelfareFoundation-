@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aitmad Welfare Foundation</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #004aad; color: #fff; padding: 20px; text-align: center; }
+    header h1 { margin: 0; }
+    nav { margin-top: 10px; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    .container { padding: 20px; }
+    .donate-box { background: #f4f4f4; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    .donate-box h2 { margin-top: 0; }
+    footer { background: #333; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+    .lang-toggle { float: right; background: #fff; color: #004aad; padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 14px; }
+  </style>
+  <script>
+    function toggleLang() {
+      let en = document.getElementById("en");
+      let ur = document.getElementById("ur");
+      if (en.style.display === "none") {
+        en.style.display = "block";
+        ur.style.display = "none";
+      } else {
+        en.style.display = "none";
+        ur.style.display = "block";
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Aitmad Welfare Foundation</h1>
+    <div class="lang-toggle" onclick="toggleLang()">EN/UR</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <div class="container">
+    <section id="about">
+      <div id="en">
+        <h2>About Us</h2>
+        <p>
+          Aitmad Welfare Foundation is dedicated to supporting flood victims in Pakistan. Thousands of families are still waiting for help — we aim to provide food, medicine, and shelter to those in need.
+        </p>
+      </div>
+      <div id="ur" style="display:none; text-align:right; direction:rtl;">
+        <h2>ہمارے بارے میں</h2>
+        <p>
+          اعتماد ویلفیئر فاؤنڈیشن پاکستان کے سیلاب متاثرین کی مدد کے لیے قائم کی گئی ہے۔ ہزاروں خاندان آج بھی مدد کے منتظر ہیں — ہمارا مقصد ان تک کھانا، دوا اور چھت پہنچانا ہے۔
+        </p>
+      </div>
+    </section><section id="donate" class="donate-box">
+  <h2>Donate Now</h2>
+  <p><strong>EasyPaisa:</strong> 0347 7160193 (Amir Abbas)</p>
+  <p><strong>IBAN:</strong> PK43TMFB0000000041284994</p>
+  <p>Your support can bring hope and relief to families in need.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: welfarefoundationaitmad@gmail.com</p>
+  <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61580118336477" target="_blank">fb.com/aitmad</a></p>
+  <p>TikTok: <a href="https://tiktok.com/@aitmad.welfare.fo" target="_blank">@aitmad.welfare.fo</a></p>
+</section>
+
+  </div>  <footer>
+    <p>© 2025 Aitmad Welfare Foundation. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
